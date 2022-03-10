@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#backgroundImage {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: fixed;
+}
+
+#audioSection {
+  position: absolute;
+  z-index: 3;
+  left: 40%;
+  top: 50%;
+
+}
+
+.container {
+  position: absolute;
+}
+
+.containerAppearance {
+  background-color: white;
+  border-radius: 10%;
+  width: 20rem;
+  height: 45rem;
+  left: 50%;
+  top: 30%;
+  opacity: 50%;
+  z-index: 0;
+  position: absolute;
+}
+
+.titleText {
+  font-family: 'VT323', monospace;
+  text-align: center;
+  left: 40%;
+  top: 50%;
+  font-size: 5rem;
+  z-index: 2;
+}
